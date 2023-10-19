@@ -25,3 +25,12 @@ e scr.demo=true
 ```
 ![tips3](https://github.com/apkunpacker/r2tips/assets/27184655/7b394cbd-3bfb-4833-ba7f-b21ec1bbe709)
 
+#4. Replace string with different string
+
+Want to change any string present in the binary to something else ?
+```sh
+r2 -wqc 'w NewString @@/ OldString' FileName
+```
+Remember you have to change NewString and old string to your required one. Don't blindly run the command
+Below I tried to chane /system/bin/ls to /system/bin/cp
+![tips4](https://github.com/apkunpacker/r2tips/assets/27184655/8ac80610-4c1e-4852-a5eb-9316eed34702)
